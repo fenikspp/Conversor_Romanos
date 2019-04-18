@@ -10,6 +10,8 @@
 
 using namespace std;
 
+//Função que recebe um numero e converte em um numero romano
+//Utilizada para verificar se o numero inserido pelo usuario é ou não valido.
 string ConverteAuxToInteiro(int inteiro)
 {
 
@@ -136,7 +138,7 @@ string ConverteAuxToInteiro(int inteiro)
     return romano;
 }
 
-
+//Função que recebe um valor inteiro, e filtra os numeros entre 0 e 3000 para serem convertidos.
 int ConverteRomanoToInteiro(int inteiro)
 {
 

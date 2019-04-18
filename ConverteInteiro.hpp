@@ -8,7 +8,7 @@
 #include "ConverteRomano.hpp"
 
 
-//Function to retrun value of roman symbols
+//Função que retorna o valor dos caracteres romanos.
 int value(char roman)
 {
     switch(roman)
@@ -23,7 +23,7 @@ int value(char roman)
     }
 }
 
-//Function to convert Roman Numerals to Integer
+//Função que converte um conjunto de caracteres romanos em um numero inteiro.
 int romanToInt (string A)
 {
     int i, n, inteiro=0, p=0;
