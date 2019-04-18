@@ -1,0 +1,17 @@
+Houve muitos testes de redundância, principalmente relacionado a validação de números romanos. Os 4 primeiros testes,
+são relacionados a função “ConverteRomanoToInteiro”, que servem para verificar se a função está processando valores
+inferiores a ‘0’ ou superiores a “3000”. Passar nesse teste significa que a função utilizada para validar os números
+romanos, não receberá um valor invalido. E os outros 2 testes são dessa variante (InteiroParaRomano), são para verificar
+se a função de validação está retornando números romanos validos.
+
+Em seguida fiz mais 8 testes chamados de “RomanoParaInteiro”, onde era verificado se um numero inteiro era equivalente
+a um numero romano, caso o numero romano fosse invalido, o inteiro equivalente deverá ser -1. Passar nesse neste
+significa que a função “romanToInt”, responsável por receber uma lista de caracteres romanos e transformar em um
+numero inteiro, não está processando números romanos inválidos, ou mesmo listas de caracteres não romanos.
+Ex: (PEDRO == -1), (XXXX == -1), (XX == 20).
+
+E os dois últimos são para verificar se a função “compara” está realmente fazendo o seu trabalho direito e para gerar
+redundância no código, confirmando mais uma vez que o numero informado pelo usuário(numero romano), será transformado
+em um numero inteiro e depois transformado novamente em romano, e depois é comparado se o numero digitado pelo
+usuário bate com o numero gerado pela função, caso as duas strings sejam iguais, o numero romano digitado é valido.
+Passar nesse teste confirma que a função compara está realmente verificando se o número é ou não valido.
