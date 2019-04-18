@@ -12,14 +12,9 @@
 //Essa função recebe o conjuto de caracteres e chama a função que converte os caracteres em um número
 //deopis pega o número gerado e transforma novamente em um numero romano(valido) e por fim compara a entrada do usuário
 //com o resultado da converteToInteiro.
-bool compara(int inteiro, string romano)
+bool compara(string romano)
 {
-    if(romano == ConverteAuxToInteiro((romanToInt(romano))))
-    {
-        return true;
-    } else{
-        return false;
-    }
+    return romano == ConverteAuxToInteiro((romanToInt(romano)));
 }
 
 #endif //TESTETRABALHO_VALIDAROMANO_HPP

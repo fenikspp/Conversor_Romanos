@@ -67,7 +67,7 @@ TEST(ValidaRomano, test1){
 }
 
 TEST(ValidaRomano, test2){
-    ASSERT_TRUE(!compara(40, "XXXX"));
+    ASSERT_TRUE(!compara("XXXX"));
 }
 
 TEST(TestaRomano, test1){
