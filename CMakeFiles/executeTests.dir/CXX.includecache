@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pedro/Documentos/UnB/4_Semestre/Metodos_de_programacao/Trabalhos/Trabalho_01/ConverteInteiro.hpp
+ConverteRomano.hpp
+/home/pedro/Documentos/UnB/4_Semestre/Metodos_de_programacao/Trabalhos/Trabalho_01/ConverteRomano.hpp
+
+/home/pedro/Documentos/UnB/4_Semestre/Metodos_de_programacao/Trabalhos/Trabalho_01/ConverteRomano.hpp
+iostream
+-
+string
+-
+
+/home/pedro/Documentos/UnB/4_Semestre/Metodos_de_programacao/Trabalhos/Trabalho_01/ValidaRomano.hpp
+ConverteRomano.hpp
+/home/pedro/Documentos/UnB/4_Semestre/Metodos_de_programacao/Trabalhos/Trabalho_01/ConverteRomano.hpp
+ConverteInteiro.hpp
+/home/pedro/Documentos/UnB/4_Semestre/Metodos_de_programacao/Trabalhos/Trabalho_01/ConverteInteiro.hpp
+
+/home/pedro/Documentos/UnB/4_Semestre/Metodos_de_programacao/Trabalhos/Trabalho_01/gTest.cpp
+ConverteRomano.hpp
+/home/pedro/Documentos/UnB/4_Semestre/Metodos_de_programacao/Trabalhos/Trabalho_01/ConverteRomano.hpp
+ConverteInteiro.hpp
+/home/pedro/Documentos/UnB/4_Semestre/Metodos_de_programacao/Trabalhos/Trabalho_01/ConverteInteiro.hpp
+ValidaRomano.hpp
+/home/pedro/Documentos/UnB/4_Semestre/Metodos_de_programacao/Trabalhos/Trabalho_01/ValidaRomano.hpp
+gtest/gtest.h
+-
+
