@@ -1,5 +1,5 @@
 //
-// Created by pedro on 17/04/19.
+// Created by pedro henrique ferreira de oliveira on 17/04/19.
 //
 #include "ConverteRomano.hpp"
 #include "ConverteInteiro.hpp"
@@ -52,6 +52,14 @@ TEST(RomanoParaInteiro, test5){
 
 TEST(RomanoParaInteiro, test6){
     ASSERT_EQ(2338, romanToInt("MMCCCXXXVIII"));
+}
+
+TEST(RomanoParaInteiro, test7){
+    ASSERT_EQ(1, romanToInt("I"));
+}
+
+TEST(RomanoParaInteiro, test8){
+    ASSERT_EQ(3, romanToInt("III"));
 }
 
 TEST(ValidaRomano, test1){
