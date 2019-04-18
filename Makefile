@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named executeTests
+# Target rules for targets named executeTestes
 
 # Build rule for target.
-executeTests: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 executeTests
-.PHONY : executeTests
+executeTestes: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 executeTestes
+.PHONY : executeTestes
 
 # fast build rule for target.
-executeTests/fast:
-	$(MAKE) -f CMakeFiles/executeTests.dir/build.make CMakeFiles/executeTests.dir/build
-.PHONY : executeTests/fast
+executeTestes/fast:
+	$(MAKE) -f CMakeFiles/executeTestes.dir/build.make CMakeFiles/executeTestes.dir/build
+.PHONY : executeTestes/fast
 
 gTest.o: gTest.cpp.o
 
@@ -129,7 +129,7 @@ gTest.o: gTest.cpp.o
 
 # target to build an object file
 gTest.cpp.o:
-	$(MAKE) -f CMakeFiles/executeTests.dir/build.make CMakeFiles/executeTests.dir/gTest.cpp.o
+	$(MAKE) -f CMakeFiles/executeTestes.dir/build.make CMakeFiles/executeTestes.dir/gTest.cpp.o
 .PHONY : gTest.cpp.o
 
 gTest.i: gTest.cpp.i
@@ -138,7 +138,7 @@ gTest.i: gTest.cpp.i
 
 # target to preprocess a source file
 gTest.cpp.i:
-	$(MAKE) -f CMakeFiles/executeTests.dir/build.make CMakeFiles/executeTests.dir/gTest.cpp.i
+	$(MAKE) -f CMakeFiles/executeTestes.dir/build.make CMakeFiles/executeTestes.dir/gTest.cpp.i
 .PHONY : gTest.cpp.i
 
 gTest.s: gTest.cpp.s
@@ -147,7 +147,7 @@ gTest.s: gTest.cpp.s
 
 # target to generate assembly for a file
 gTest.cpp.s:
-	$(MAKE) -f CMakeFiles/executeTests.dir/build.make CMakeFiles/executeTests.dir/gTest.cpp.s
+	$(MAKE) -f CMakeFiles/executeTestes.dir/build.make CMakeFiles/executeTestes.dir/gTest.cpp.s
 .PHONY : gTest.cpp.s
 
 # Help Target
@@ -157,7 +157,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... executeTests"
+	@echo "... executeTestes"
 	@echo "... edit_cache"
 	@echo "... gTest.o"
 	@echo "... gTest.i"
