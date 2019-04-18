@@ -38,6 +38,14 @@ TEST(RomanoParaInteiro, test2){
     ASSERT_EQ(2291, romanToInt("MMCCXCI"));
 }
 
+TEST(RomanoParaInteiro, test3){
+    ASSERT_EQ(-1, romanToInt("TESTE"));
+}
+
+TEST(RomanoParaInteiro, test4){
+    ASSERT_EQ(-1, romanToInt("testeminusculo"));
+}
+
 TEST(ValidaRomano, test1){
     ASSERT_FALSE(ConverteAuxToInteiro(40) == "XXXX");
 }
