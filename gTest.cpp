@@ -62,6 +62,10 @@ TEST(RomanoParaInteiro, test8){
     ASSERT_EQ(3, romanToInt("III"));
 }
 
+/*TEST(RomanoParaInteiro, test9){
+    ASSERT_EQ(-1, romanToInt("VV"));
+}*/
+
 TEST(ValidaRomano, test1){
     ASSERT_FALSE(ConverteAuxToInteiro(40) == "XXXX");
 }
